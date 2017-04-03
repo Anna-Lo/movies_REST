@@ -22,6 +22,5 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^movies/$', views.MoviesView.as_view()),
     url(r'^movies/(?P<id>(\d)+)', views.MovieView.as_view()),
-    url(r'^movies/remove/(?P<id>(\d)+)', views.MovieView.as_view()),
-    url(r'^movies/edit/(?P<id>(\d)+)', views.MovieView.as_view())
+
 ]
